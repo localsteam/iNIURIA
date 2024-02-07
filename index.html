@@ -8,10 +8,21 @@
   body {
     background-color: black;
     color: white; /* Set text color to white for better visibility on black background */
+    padding-top: 20px; /* Add padding to the top of the body */
+    text-align: center; /* Center align the text */
+  }
+  .header {
+    background-color: purple; /* Set background color to purple */
+    padding: 10px; /* Add padding around the header */
+    font-size: 24px; /* Increase font size */
+  }
+  pre {
+    text-align: left; /* Align text to the left within the <pre> element */
   }
 </style>
 </head>
 <body>
+<div class="header">INIURIA V2</div>
 <pre style="word-wrap: break-word; white-space: pre-wrap;">
 local dll = E:\iniuria_v2.dll
 local processid = 2662
@@ -29,7 +40,6 @@ if fat_as_fuck == true then
 else end
 
 if setting = true then injection(dll,processid) else end
-    
 </pre>
 </body>
 </html>
